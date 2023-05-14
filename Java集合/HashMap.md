@@ -1,6 +1,6 @@
-# HashMap面试小抄
+# HashMap思考小抄
 
-对于JAVA求职者来说，HashMap 可谓是重中之重，是面试必考点。然而 HashMap 的知识点非常多，复习起来花费精力很大，库森当年校招面试时就经历过这种痛苦，结合自己的面试经验，斗胆写一篇关于 HashMap 的面试专题文章，希望对小伙伴有所帮助!
+对于JAVA求职者来说，HashMap 可谓是重中之重，是思考必考点。然而 HashMap 的知识点非常多，复习起来花费精力很大，库森当年校招思考时就经历过这种痛苦，结合自己的思考经验，斗胆写一篇关于 HashMap 的思考专题文章，希望对小伙伴有所帮助!
 
 ## 1. 存储结构
 
@@ -18,7 +18,7 @@
 
 ![Jdk1.8 HashMap结构](http://blog-img.coolsen.cn/img/image-20210112185830788.png)
 
-更深入的面试问题，
+更深入的思考问题，
 
 > 为什么在解决 hash 冲突的时候，不直接用红黑树？而选择先用链表，再转红黑树?
 
@@ -474,7 +474,7 @@ null
 
 ## 最后
 
-以上便是 HashMap 的核心面试题了，限于篇幅原因，本文并没有讲到 HashMap 的线程不安全问题，后面会专门写一篇文章讲解，敬请期待呦！
+以上便是 HashMap 的核心思考题了，限于篇幅原因，本文并没有讲到 HashMap 的线程不安全问题，后面会专门写一篇文章讲解，敬请期待呦！
 
 ## 参考
 
@@ -486,5 +486,5 @@ null
 
 [[HashMap](https://www.cnblogs.com/chenssy/p/3521565.html)](https://www.cnblogs.com/chenssy/p/3521565.html)
 
-[HashMap面试指南](https://zhuanlan.zhihu.com/p/76735726)
+[HashMap思考指南](https://zhuanlan.zhihu.com/p/76735726)
 

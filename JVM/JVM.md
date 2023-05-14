@@ -1,4 +1,4 @@
-# JVM 常考面试题
+# JVM 常考思考题
 ## 1. 什么是JVM内存结构？
 
 ![](http://blog-img.coolsen.cn/img/image-20210220111553294.png)

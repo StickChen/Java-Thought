@@ -1,5 +1,5 @@
 
-本文汇总了常考的 ConcurrentHashMap 面试题，面试 ConcurrentHashMap，看这一篇就够了！为帮助大家高效复习，专门用”★ “表示面试中出现的频率，”★ “越多，代表越高频！
+本文汇总了常考的 ConcurrentHashMap 思考题，思考 ConcurrentHashMap，看这一篇就够了！为帮助大家高效复习，专门用”★ “表示思考中出现的频率，”★ “越多，代表越高频！
 
 ![](http://blog-img.coolsen.cn/img/ConcurrentHashMap公众号.png)
 
@@ -138,7 +138,7 @@ get 方法不需要加锁。因为 Node 的元素 value 和指针 next 是用 vo
 
 但是在我们调用 `ConcurrentHashMap.get(key)`方法之后，`containsKey`方法之前，线程B执行了`ConcurrentHashMap.put(key, null)`的操作。那么我们调用`containsKey`方法返回的就是 true 了，这就与我们的假设的真实情况不符合了，这就有了二义性。
 
-至于 ConcurrentHashMap 中的 key 为什么也不能为 null 的问题，源码就是这样写的，哈哈。如果面试官不满意，就回答因为作者Doug不喜欢 null ，所以在设计之初就不允许了 null 的 key 存在。想要深入了解的小伙伴，可以看这篇文章[这道面试题我真不知道面试官想要的回答是什么](https://mp.weixin.qq.com/s?__biz=MzIxNTQ4MzE1NA==&mid=2247484354&idx=1&sn=80c92881b47a586eba9c633eb78d36f6&chksm=9796d5bfa0e15ca9713ff9dc6e100593e0ef06ed7ea2f60cb984e492c4ed438d2405fbb2c4ff&scene=21#wechat_redirect)
+至于 ConcurrentHashMap 中的 key 为什么也不能为 null 的问题，源码就是这样写的，哈哈。如果思考官不满意，就回答因为作者Doug不喜欢 null ，所以在设计之初就不允许了 null 的 key 存在。想要深入了解的小伙伴，可以看这篇文章[这道思考题我真不知道思考官想要的回答是什么](https://mp.weixin.qq.com/s?__biz=MzIxNTQ4MzE1NA==&mid=2247484354&idx=1&sn=80c92881b47a586eba9c633eb78d36f6&chksm=9796d5bfa0e15ca9713ff9dc6e100593e0ef06ed7ea2f60cb984e492c4ed438d2405fbb2c4ff&scene=21#wechat_redirect)
 
 > ConcurrentHashMap 的并发度是什么？★★
 

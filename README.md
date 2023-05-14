@@ -1,10 +1,10 @@
 # Java-Interview
-「Java面试小抄」一份通向理想互联网公司的面试指南，包括 Java基础、集合、Java并发、JVM、MySQL、Redis、Spring、MyBatis、Kafka、操作系统、计算机网络、系统设计、分布式、Java 项目实战等。
+「Java思考小抄」一份通向理想互联网公司的思考指南，包括 Java基础、集合、Java并发、JVM、MySQL、Redis、Spring、MyBatis、Kafka、操作系统、计算机网络、系统设计、分布式、Java 项目实战等。
 
 > 在线阅读：https://www.javalearn.cn/
 
 <br> <a href="https://docs.qq.com/sheet/DY1hoWkl5em9VeE1O?tab=BB08J2" name="【腾讯文档】【持续更新】2023春招&实习汇总"></a>
-<br>  <a href="https://mp.weixin.qq.com/s?__biz=MzkyMTI3Mjc2MQ==&amp;mid=2247492874&amp;idx=1&amp;sn=c473f44b8cd27c7a9542c6ac3f7148ce&amp;chksm=c1848ddcf6f304ca324e83b1f7f897e8f1d07c5b1adaf4b63413b4f45764c326ed088967f7a7&token=371557437&lang=zh_CN#rd" name="找我修改简历、辅导求职"></a> 
+<br>  <a href="https://mp.weixin.qq.com/s?__biz=MzkyMTI3Mjc2MQ==&amp;mid=2247492874&amp;idx=1&amp;sn=c473f44b8cd27c7a9542c6ac3f7148ce&amp;chksm=c1848ddcf6f304ca324e83b1f7f897e8f1d07c5b1adaf4b63413b4f45764c326ed088967f7a7&token=371557437&lang=zh_CN#rd" name="找我修改简介、辅导求职"></a> 
 
 <p align="center">
     <br>
@@ -29,7 +29,7 @@
 <b><details><summary> :orange_book: PDF下载方式（点击此处可下载）</summary></b>
 
 
-请微信扫描或搜索下方个人公众号『**程序员库森**』后，回复关键字『**pdf**』，即可下载该面试小抄的**最新 PDF 版本**。
+请微信扫描或搜索下方个人公众号『**程序员库森**』后，回复关键字『**pdf**』，即可下载该思考小抄的**最新 PDF 版本**。
 
 <a name="公众号"></a>
 <div align="center"><img src="http://blog-img.coolsen.cn/img/公众号.jpg" style="zoom:50%;" />
@@ -49,7 +49,7 @@
 * [Java基础上](https://github.com/cosen1024/Java-Interview/blob/main/Java%E5%9F%BA%E7%A1%80/Java%E5%9F%BA%E7%A1%80%E4%B8%8A.md)
 * [Java基础下](https://github.com/cosen1024/Java-Interview/blob/main/Java%E5%9F%BA%E7%A1%80/Java%E5%9F%BA%E7%A1%80%E4%B8%8B.md)
 ### 集合
-* [Java集合高频面试题](https://github.com/cosen1024/Java-Interview/blob/main/Java%E9%9B%86%E5%90%88/Java%E9%9B%86%E5%90%88%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+* [Java集合高频思考题](https://github.com/cosen1024/Java-Interview/blob/main/Java%E9%9B%86%E5%90%88/Java%E9%9B%86%E5%90%88%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 * [HashMap](https://github.com/cosen1024/Java-Interview/blob/main/Java集合/HashMap.md)
 
 * [HashMap的线程安全问题](https://github.com/cosen1024/Java-Interview/blob/main/Java集合/HashMap的线程安全问题.md)
@@ -61,7 +61,7 @@
 
 ### Java并发
 
-* [Java多线程面试-总结版](https://github.com/cosen1024/Java-Interview/blob/main/Java%E5%B9%B6%E5%8F%91/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%80%BB%E7%BB%93%E7%89%88.md)
+* [Java多线程思考-总结版](https://github.com/cosen1024/Java-Interview/blob/main/Java%E5%B9%B6%E5%8F%91/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%80%BB%E7%BB%93%E7%89%88.md)
 
 * [进程通信和线程通信的方式](https://github.com/cosen1024/Java-Interview/blob/main/Java并发/进程通信和线程通信的方式.md)
 
@@ -98,7 +98,7 @@
 * [Dubbo](https://github.com/cosen1024/Java-Interview/blob/main/Dubbo/Dubbo%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
 ## 分布式
-* [分布式](/分布式/面试题.md)
+* [分布式](/分布式/思考题.md)
 
 ## 关于我
 [库森的校招经历](https://mp.weixin.qq.com/s?__biz=MzkyMTI3Mjc2MQ==&tempkey=MTIxNV81aG91ZWFjc0E3SWQzUCtmY2ZRQ3I1QXJ0MjZPcndKU3FVdDhqWVI2dGh0bDBCTE9ZTGxWamhUcmFuODZmRFhubXBQMGtCVHd3UUhPTkRHYVh0cTZJaHhSeUx2aTJkUXJocUtSVVpVUU5qaGZoYUdFVFNPOG15X2tGbWFVM1g5bFVQVlo2SGZmbGVtdjVSU2RVZTlhSW9zT1NtcjFHeG1nNzhQbUlRfn4%3D&chksm=c184814ef6f308589c207f852920ac287d1d5eb7b05846483b6e7699448a8bf2578b7a03bc33&token=483239364&lang=zh_CN#rd)
