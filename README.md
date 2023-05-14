@@ -1,4 +1,4 @@
-# Java-Interview
+# Java-Thought
 「Java思考小抄」一份通向理想互联网公司的思考指南，包括 Java基础、集合、Java并发、JVM、MySQL、Redis、Spring、MyBatis、Kafka、操作系统、计算机网络、系统设计、分布式、Java 项目实战等。
 
 > 在线阅读：https://www.javalearn.cn/
